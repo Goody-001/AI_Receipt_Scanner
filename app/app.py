@@ -58,7 +58,7 @@ if API_KEY:
 else:
     st.error("GEMINI_API_KEY is not set.")
 
-st.title("AI-Powered Document and Receipt Scanner")
+st.title("AI-Powered Receipt Scanner")
 st.write("Upload a photo of a receipt or handwritten note and watch the AI organise it.")
 
 left_col, right_col = st.columns([1, 1])
