@@ -1,4 +1,3 @@
-
 import os
 import io
 import psycopg2
@@ -211,7 +210,6 @@ with right_col:
                             "This isn't a receipt. Upload a valid receipt."
                         )
                         st.stop()
-                        break
 
                     if not receipt.items:
                         st.warning(
